@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Scoreboard"
         tools:targetApi="31">
         <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
