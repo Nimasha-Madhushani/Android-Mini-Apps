@@ -37,16 +37,21 @@ public class HistoryViewAdapter extends RecyclerView.Adapter<HistoryViewAdapter.
     //Inflates the row layout from xml been needed
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = mInflater.inflate(R.layout.history_cell, parent, false) {
+        View view = mInflater.inflate(R.layout.history_cell, parent, false);
             return new ViewHolder(view);
         }
 
 
+
+    @Override
+    public void onBindViewHolder(@NonNull HistoryViewAdapter.ViewHolder holder, int position) {
+        String history = mData.get(position);
+        holder.myTextView.setText(history);
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mData.size();
     }
 //total no:of rows
 }
