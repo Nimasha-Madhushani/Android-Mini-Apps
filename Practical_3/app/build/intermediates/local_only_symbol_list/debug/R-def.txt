@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_count
+id btn_toast
+id rev_score_history
+id tv_score
+id tv_score_history
+layout activity_history
+layout activity_main
+layout history_cell
+mipmap ic_launcher
+mipmap ic_launcher_round
+string _0
+string app_name
+string count
+string toast
+style Theme.Scoreboard
+xml backup_rules
+xml data_extraction_rules

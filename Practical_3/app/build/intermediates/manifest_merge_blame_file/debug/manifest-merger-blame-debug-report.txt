@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.scoreboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:6:5-31:19
+12        android:allowBackup="true"
+12-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Acer\.gradle\caches\transforms-3\09dce287f966ede6f56d2bc091f83727\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Scoreboard" >
+22-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:14:9-48
+23        <activity
+23-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:16:9-25:20
+24            android:name="com.example.scoreboard.HistoryActivity"
+24-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:17:13-44
+25            android:exported="true" >
+25-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:18:13-36
+26            <intent-filter>
+26-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:20:17-69
+27-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:22:17-77
+29-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:26:9-30:20
+33            android:name="com.example.scoreboard.HomeActivity"
+33-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:27:13-41
+34            android:exported="true" >
+34-->E:\L3\L3S1\E\Mobile\Android_Practicals\Android-Mini-Apps\Practical_2\app\src\main\AndroidManifest.xml:28:13-36
+35        </activity>
+36    </application>
+37
+38</manifest>
