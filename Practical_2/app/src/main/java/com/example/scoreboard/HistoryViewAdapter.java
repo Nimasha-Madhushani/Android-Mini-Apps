@@ -23,7 +23,7 @@ public class HistoryViewAdapter extends RecyclerView.Adapter<HistoryViewAdapter.
 
     //stores and recycle view as they are scrolled off screen
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView myTextView;
 
         ViewHolder(View itemView) {
@@ -35,8 +35,9 @@ public class HistoryViewAdapter extends RecyclerView.Adapter<HistoryViewAdapter.
     }
 
     //Inflates the row layout from xml been needed
+    @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = mInflater.inflate(R.layout.history_cell, parent, false);
             return new ViewHolder(view);
         }
